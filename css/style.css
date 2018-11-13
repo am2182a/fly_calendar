@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+}
+
+.headerMenu {
+	background-color: #fff; 
+	height: 38px; 
+	borderbottom: 0px; 
+	padding-left: auto; 
+	padding-right: auto; 
+	width: 100%; 
+}
+
+#headertitle {
+	font-size: 32px; 
+	font-family: 'Lato', sans-serif; 
+	font-weight: 100;
+	color: #f0622d; 
+	position: absolute; 
+	top: 15px; 
+	left: 300px; 
+}
+
+#wrapper {
+	margin-left: auto; 
+	margin-right: auto;
+	width: 1000px; 
+	height: auto; 
+	padding-top: 0px;
+	padding-bottom: 0px; 
+}
+
+.logo {
+	width: 125px; 
+}
+
+.logo img {
+	width: 100px; 
+	height: auto; 
+}
+
+.searchBox {
+	position: absolute;
+	top: 25px; 
+	right: 100px; 
+}
+
+.searchBox #search input {
+	width: 150px; 
+}
+
+#search input[type="text"]{
+	background: url("../images/search-white.svg") no-repeat 10px 6px #e6e6e6;
+	outline: none;
+	border: 1px solid black; 
+	border-radius: 5px; 
+	font: bold 12px Arial, Helvetica, sans-serif; 
+	width: 150px; 
+	padding: 6px 15px 6px 35px; 
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset; 
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset; 
+	box-shadow: 0 1px 0 rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	-webkit-transition: all 0.7s ease 0s; 
+	-moz-transition: all 0.7s ease 0s; 
+	-o-transition: all 0.7s ease 0s; 
+	transition: all 0.7s ease 0s; 
+}
+
+#search input[type="text"]:focus {
+	background: url("../images/search-gray.svg") no-repeat 10px #fff;
+	color: #ff8533;
+	width: 350px; 
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.9) inset; 
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.9) inset; 
+	box-shadow: 0 1px 0 rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.9) inset;
+	
+}
+@media screen and (max-width: 1280px) {
+#menu {
+	position: absolute; 
+	top: 12px; 
+	right: 450px;
+	height: 37px; 
+	padding-top: 19px; 
+	margin-right: 4%; 
+}
+}
+
+@media screen and (min-width: 1280px) {
+#menu {
+	position: absolute; 
+	top: 12px; 
+	right: 450px;
+	height: 37px; 
+	padding-top: 19px; 
+	margin-right: 6%;
+}
+}
+
+@media screen and (min-width: 1920px) {
+#menu {
+	position: absolute; 
+	top: 12px; 
+	right: 450px;
+	height: 37px; 
+	padding-top: 19px; 
+	margin-right: 6%;
+}
+}
+
+#menu a {
+	color: #f0622d;
+	text-decoration: none; 
+	font-size: 14px; 
+	font-family: 'Lato', sans-serif; 
+	font-weight: 300; 
+	padding-top: 19px; 
+	padding-bottom: 22px; 
+	padding-left: 10px; 
+	padding-right: 10px; 
+}
+
+#menu a:hover {
+	color: #cc5200; 
+}
+
+
+h2 {
+	font-family: 'Lato', sans-serif; 
+	font-weight: 300; 
+	color: #f0622d;
+	font-size: 24px; 
+}
+
+input[type="text"], input[type="password"] {
+	font-family: 'Lato', sans-serif; 
+	font-weight: 300; 
+	color: #000000; 
+	padding: 5px; 
+	margin-bottom: 3px; 
+	margin-top: 3px; 
+	outline: none; 
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+	border: 2px solid #f0662d; 
+}
+
+.signup{
+	width: 800px;
+	margin: 150px auto 0px auto; 
+	
+}
+
+input[type="submit"] {
+	background-color: #fff; 
+	border: 1px solid #b3b3b3; 
+	font-size: 15px;
+	font-family: 'Lato', sans-serif; 
+	font-weight: 300; 
+	color: #f0662d; 
+	padding: 5px; 
+	margin-top: 3px; 
+	border-radius: 7px; 
+}
+.profileLeftSideContent {
+	width: 194px; 
+	padding-right: 0px; 
+	padding-bottom: 5px; 
+	padding-top: 5px;
+	padding-left: 0px; 
+	height: 200px; 
+	border: 3px solid black; 
+}
+
+.postForm {
+	float: right; 
+	width: 560px; 
+	height: 80px; 
+	background-color: #b3b3b3; 
+	padding: 5px; 
+}
+
+.profilePosts {
+	float: right; 
+	width: 560px; 
+	height: 414px; 
+	background-color: lightcoral; 
+	padding: 5px; 
+}
